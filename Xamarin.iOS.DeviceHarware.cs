@@ -1,10 +1,10 @@
 using System;
 using System.Runtime.InteropServices;
-using MonoTouch.Foundation;
 
-using Constants = MonoTouch.Constants;
+using Foundation;
+using ObjCRuntime;
 
-namespace Xamarin.iOS
+namespace Xamarin.Forms.Platform.iOS
 {
     public static class DeviceHardware
     {
