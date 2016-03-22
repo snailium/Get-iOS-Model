@@ -1,3 +1,5 @@
+namespace Xamarin.Forms.Devices
+{
 class iOSHardware
 {
 	public string GetModel(string hardware)
@@ -317,4 +319,5 @@ class iOSHardware
             
         return (hardware == "" ? "Unknown": hardware);        
     }
+}
 }

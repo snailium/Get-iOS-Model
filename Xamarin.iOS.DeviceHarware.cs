@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 using Foundation;
 using ObjCRuntime;
 
-namespace Xamarin.Forms.Platform.iOS
+namespace Xamarin.Forms.Devices
 {
-    public static class DeviceHardware
+    public static class Hardware
     {
-        public const string HardwareProperty = "hw.machine";
+		private const string HardwareProperty = "hw.machine";
 
         [DllImport(Constants.SystemLibrary)]
         internal static extern int sysctlbyname([MarshalAs(UnmanagedType.LPStr)] string property, // name of the property
